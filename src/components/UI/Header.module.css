@@ -1,0 +1,31 @@
+
+.container{
+    display:block;
+    background-color: rgb(75, 144, 213);
+    /* width:35%; */
+    border: 2px black solid;
+    display: flex;
+    place-content: space-between ;
+}
+h1 {
+    color: rgb(9, 9, 36);
+    margin-left: 10px;
+}
+.btn{
+    border-radius: 20px;
+    height: 3rem;
+    width: 10rem;
+    margin: 15px 10px 10px 10px;
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(9, 9, 36);
+}
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  image-rendering: auto;
+
+}
