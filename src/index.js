@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Header />,
   },
   {
-    path: "/login",
+    path: "/logout",
     element: <Header />,
   },
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     element: <Startup />,
   },
   {
-    path: "/investor/:investorId",
+    path: "/investor",
     element: <Investor />,
   },
 ]);
